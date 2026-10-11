@@ -1,0 +1,10 @@
+{
+  "name": "tiku-workbook",
+  "description": "連上考古題題庫 MCP（tiku.ptsfu.org），挑資工所考古題並用你自己的樣式產生 PDF 題本",
+  "version": "1.0.0",
+  "author": { "name": "taisianghuang" },
+  "homepage": "https://tiku.ptsfu.org/ai.html",
+  "repository": "https://github.com/taisianghuang/tiku-skills",
+  "license": "MIT",
+  "keywords": ["exam", "考古題", "資工所", "pdf", "mcp"]
+}

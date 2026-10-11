@@ -1,0 +1,12 @@
+{
+  "page": {"margin_mm": 12},
+  "image": {"max_scale": 1.2},
+  "cover": {"enabled": false},
+  "header": [
+    {"template": "{seq}. {attribution}　〔{unit}〕", "size": 11, "color": "#111111"}
+  ],
+  "rule": {"enabled": false},
+  "layout": {"mode": "flow", "gap_mm": 6},
+  "answer_space": {"lines": 4, "line_gap_mm": 8},
+  "footer": {"left": "", "right": "{seq}/{total}"}
+}

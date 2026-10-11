@@ -1,0 +1,12 @@
+{
+  "name": "tiku",
+  "owner": { "name": "taisianghuang" },
+  "description": "資工所考古題題庫（tiku.ptsfu.org）的 AI agent 工具",
+  "plugins": [
+    {
+      "name": "tiku-workbook",
+      "source": "./plugins/tiku-workbook",
+      "description": "連上考古題題庫 MCP，挑題並用你自己的樣式產生 PDF 題本"
+    }
+  ]
+}

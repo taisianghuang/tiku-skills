@@ -1,0 +1,22 @@
+{
+  "page": {"size": "A4", "margin_mm": 15},
+  "font": {"file": null},
+  "image": {"source_dpi": 200, "max_scale": 1.6, "encode": "jpeg", "jpeg_quality": 88},
+  "cover": {
+    "enabled": true,
+    "title": "{title}",
+    "subtitle": "{date}　共 {total} 題",
+    "note": "",
+    "show_unit_counts": true,
+    "show_question_list": true
+  },
+  "header": [
+    {"template": "{seq}. {unit}", "size": 13, "color": "#1d4ed8"},
+    {"template": "{attribution}", "size": 12, "color": "#111111"},
+    {"template": "{text}", "size": 9, "color": "#777777", "max_chars": 80}
+  ],
+  "rule": {"enabled": true, "color": "#bbbbbb", "width": 0.8},
+  "layout": {"mode": "one_per_page", "gap_mm": 8},
+  "answer_space": {"lines": 0, "line_gap_mm": 9, "color": "#dddddd"},
+  "footer": {"left": "{category} / {source_pdf}", "right": "{seq}/{total}", "size": 8, "color": "#999999"}
+}

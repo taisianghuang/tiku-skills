@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tiku": {
+      "type": "http",
+      "url": "https://tiku.ptsfu.org/mcp"
+    }
+  }
+}
